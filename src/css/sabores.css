@@ -1,0 +1,38 @@
+.div-sabores{
+    padding: 20px 0px;
+}
+.div-sabores .title{
+    font-weight: 700;
+}
+.div-img-sabores{
+    margin: auto auto;
+}
+.btn-sabores{
+    font-size: 20px;
+    border-radius: 50%;
+    border-width: 1.5px;
+    margin: 0px 3px;
+    padding: 0px 7px;
+}
+.div-buttons{
+    color: #343a40;
+    font-size: 30px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn{
+
+    font-weight: 600;
+}
+.cant-text{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #343a40;
+}
+.div-carrito{
+    display: flex;
+    align-items: center;
+}

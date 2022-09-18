@@ -1,0 +1,300 @@
+
+.main-img {
+    height: 88.8vh;
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/997301974942888017/bruno_gif_beso_de_moza.GIF);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.secciones{
+    padding: 45px 0;
+}
+#nosotros p{
+    font-size: 1.8rem;
+}
+.novedades-h2{
+    font-style: italic;
+}
+@media (max-width: 991px) {
+    .novedades-h2{
+        margin-top: 2.5rem;
+        margin-bottom: 0px;
+        font-style: italic;
+    }
+}
+@media (max-width: 600px) {
+    .main-img {
+        background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/997288048876335195/Ilustracion_sin_titulo.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70vh;
+    }
+}
+.card {
+    width: 210px;
+    height: 210px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, .3) 5px 5px 15px, rgba(0, 0, 0, .3) 0px 6px 6px;
+
+}
+
+.pareja-1 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/997292084660809728/rosanaut.jpeg);
+}
+
+.pareja-2 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/997283409049165905/WhatsApp_Image_2022-07-14_at_4.34.14_PM.jpeg);
+}
+
+.pareja-3 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/997287551599656991/WhatsApp_Image_2022-07-14_at_6.44.21_PM.jpeg);
+}
+
+.pareja-4 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/997137020373717032/WhatsApp_Image_2022-07-14_at_8.46.04_AM.jpeg);
+}
+
+.card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+
+/* .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    background-color: #008bf8;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+} */
+
+.text-body {
+    color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Hover*/
+/* .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+} */
+
+
+/* BLOG CSS */
+.title {
+    font-weight: 700;
+}
+
+.bg-section {
+    background-color: #E97978;
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.bg-section2 {
+    padding: 50px 0;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.div-parejas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.card-out-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_box {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, .3) 5px 5px 15px, rgba(0, 0, 0, .3) 0px 6px 6px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.card_box:hover {
+    transform: scale(1.05);
+}
+
+.card_box span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_box span::before {
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.486);
+}
+
+.card_box span::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    z-index: -1;
+    box-shadow: 140px -140px #cc3f47;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+}
+
+.tipo-Beso-Moza1::before {
+    content: 'Clásico';
+    background-image: linear-gradient(45deg, #fcc31c, #fcc31c, #f8de1f);
+}
+
+.tipo-Beso-Moza2::before {
+    content: 'Lúcuma';
+    background-image: linear-gradient(45deg, #f18426, #ec6429, #f18426);
+}
+
+.tipo-Beso-Moza3::before {
+    content: 'Fresa';
+    background-image: linear-gradient(45deg, #c94f4f, #c71e34, #c94f4f);
+}
+
+.Beso-Moza3 span::after {
+    box-shadow: 140px -140px #c71e34;
+    background-image: linear-gradient(45deg, #c71e34 0%, #c71e34 51%, #c71e34 100%);
+}
+
+.tipo-Beso-Moza4::before {
+    content: 'Menta';
+    background-image: linear-gradient(45deg, #81b997, #4ab793, #81b997);
+}
+
+.tipo-Beso-Moza4::after {
+    box-shadow: 140px -140px #ffffff;
+}
+
+.Beso-Moza4 span::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    z-index: -1;
+    box-shadow: 140px -140px #25775c;
+    background-image: linear-gradient(45deg, #25775c 0%, #25775c 51%, #25775c 100%);
+}
+
+.Beso-Moza1 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/996667325866590298/SABORES_BDM-02.png);
+    background-position: center;
+    background-size: 132%;
+    background-repeat: no-repeat;
+}
+
+.Beso-Moza2 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/996667325518454884/SABORES_BDM_Mesa_de_trabajo_1.png);
+    background-position: center;
+    background-size: 132%;
+    background-repeat: no-repeat;
+}
+
+.Beso-Moza3 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/996667326214701116/SABORES_BDM-03.png);
+    background-position: center;
+    background-size: 132%;
+    background-repeat: no-repeat;
+}
+
+.Beso-Moza4 {
+    background-image: url(https://cdn.discordapp.com/attachments/866837932643450901/996667326600581210/SABORES_BDM-04.png);
+    background-position: center;
+    background-size: 132%;
+    background-repeat: no-repeat;
+}
+
+.card-button {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0;
+    border: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: #fff;
+}
+
+.card_box:hover .card-button {
+    opacity: 0.75;
+    transition-duration: 0.25s;
+}
+
+.card1 {
+    background-color: #dbc200;
+}
+
+.card2 {
+    background-color: #ec6429;
+}
+
+.card3 {
+    background-color: #c71e34;
+}
+
+.card4 {
+    background-color: #25775c;
+}

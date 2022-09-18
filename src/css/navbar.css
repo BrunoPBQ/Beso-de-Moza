@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Albert Sans', sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+header {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.27);
+}
+
+.bg-navbar {
+    background-color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    font-family: 'Albert Sans';
+    color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-toggler {
+    color: #ccc !important;
+}
+
+.dropdown::after {
+    background-color: aqua;
+}
+
+.dropdown-menu {
+    box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.27);
+}
+
+.fa-cart-plus{
+    font-size: 25px;
+}
+.fa-cart-shopping{
+    font-size: 25px;
+}
+.div-buttons .fa-cart-shopping{
+    font-size: 16px;
+}
+.div-cantProducto{
+    margin-right: 5px;
+}
+.btn-carrito{
+    background: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    color: rgba(0, 0, 0, 0.65) !important;
+
+}
+.btn-carrito:hover{
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0) !important;
+}
+
+@media (max-width: 991px) {
+    .dropdown-menu {
+        text-align: center;
+        border: none;
+        box-shadow: none;
+    }
+    .div-nav {
+        width: 100%;
+    }
+}
